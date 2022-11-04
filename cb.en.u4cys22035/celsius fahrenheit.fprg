@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22035"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 09:50:36 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjAzNTsyMDIyMjNNQVlDMDA0ODsyMDIyLTExLTA0OzA5OjA5OjQ1IEFNOzMwNjk="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjAzNTsyMDIyMjNNQVlDMDA0ODsyMDIyLTExLTA0OzA5OjUwOjM2IEFNOzI7MzE3NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempc, tempf" type="Real" array="False" size=""/>
+            <output expression="&quot;enter temperature in celsius&quot;" newline="True"/>
+            <input variable="tempc"/>
+            <assign variable="tempf" expression="(9/5*(tempc))+32"/>
+            <output expression="&quot;given temperture in celsius is converted to fahrenheit is fahrenheit&quot;&amp;tempf" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
